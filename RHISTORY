@@ -1,0 +1,42 @@
+    1  ln -sf /usr/share/zoneinfo/Brazil/East /etc/localtime
+    2  hwclock --systohc
+    3  locale-gen 
+    4  mkinitcpio -P
+    5  vim
+    6  vi
+    7  pacman -S vi
+    8  vi /etc/pacman.d/mirrorlist 
+    9  pacman -S grub
+   10  grub-install --help
+   11  grub-install --help | less
+   12  grub-install --help
+   13  grub-install /dev/sda
+   14  grub-mkconfig -o /boot/grub/grub.cfg
+   15  pacman -S os-prober
+   16  passwd 
+   17  exit
+   18  ping terminalroot.com.br
+   19  ip link
+   20  poweroff 
+   21  ping terminalroot.com.br
+   22  pacman -S ducpcd
+   23  pacman -S dhcpcd
+   24  systemctl enable dhcpcd
+   25  exit
+   26  ping terminalroot.com.br
+   27  pacman -Ss obconf
+   28  pacman -S openbox obconf sudo vim
+   29  pacman -S xorg-xinit
+   30  pacman -S xorg-server xorg-xinit openbox obconf sudo vim git
+   31  useradd -m -G users marcos
+   32  passwd marcos
+   33  exit
+   34  loadkeys br-abnt2
+   35  pacman -s wget
+   36  pacman -S wget
+   37  wget terminalroot.com.br/sh/files/10-evdev.conf
+   38  ls
+   39  mv 10-evdev.conf /etc/X11/xorg.conf.d/
+   40  vim /etc/sudoers
+   41  exit
+   42  history > RHISTORY 
